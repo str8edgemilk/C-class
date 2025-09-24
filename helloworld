@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int height;
+    int length;
+    int recArea;
+
+    cin >> height;
+    cin >> length;
+
+    recArea = height * length ; 
+
+    cout << "Area:" << recArea << endl;
+
+    return 0;
+}
